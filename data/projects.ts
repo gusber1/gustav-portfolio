@@ -13,6 +13,6 @@ export const projects: Project[] = [
     category: "Interactive Object / Design",
     description:
       "En fysisk maskin som fångar, materialiserar och bevarar drömmar genom ljud, AI och taktil interaktion.",
-    image: "/images/dreamcatcher/cover.jpg",
+    image: "public/images/dreamcatcher/cover.jpg",
   },
 ];
