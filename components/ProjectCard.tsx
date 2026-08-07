@@ -1,4 +1,6 @@
+
 import Image from "next/image";
+import Link from "next/link";
 import { Project } from "@/data/projects";
 
 export default function ProjectCard({
@@ -7,30 +9,42 @@ export default function ProjectCard({
   project: Project;
 }) {
   return (
-    <article className="group">
-      <div className="overflow-hidden rounded-xl">
-        <Image
-          src={project.image}
-          alt={project.title}
-          width={1200}
-          height={800}
-          className="transition-transform duration-500 group-hover:scale-105"
-        />
-      </div>
+    <article className="w-full">
 
-      <div className="mt-4">
-        <p className="text-sm text-neutral-500">
-          {project.year} — {project.category}
-        </p>
+      <Link
+        href={`/projects/${project.slug}`}
+        className="group block w-full"
+      >
 
-        <h2 className="text-2xl font-medium mt-1">
-          {project.title}
-        </h2>
+        <div className="w-full h-[300px] overflow-hidden rounded-xl">
+          <Image
+            src={project.thumbnail}
+            alt={project.title}
+            width={1600}
+            height={900}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
 
-        <p className="mt-2 text-neutral-600">
-          {project.description}
-        </p>
-      </div>
+        <div className="mt-4">
+
+          <p className="text-sm text-neutral-500">
+            {project.year} — {project.category}
+          </p>
+
+          <h2 className="text-2xl font-medium mt-1">
+            {project.title}
+          </h2>
+
+          <p className="mt-2 max-w-2xl text-neutral-600">
+            {project.description}
+          </p>
+
+        </div>
+
+      </Link>
+
     </article>
   );
 }
+

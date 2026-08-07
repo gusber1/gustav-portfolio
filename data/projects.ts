@@ -1,18 +1,19 @@
+import projectsData from "./projects.json";
+
 export type Project = {
+  slug: string;
   title: string;
   year: string;
   category: string;
+  materials?: string;
   description: string;
-  image: string;
+
+  thumbnail: string;
+  cover: string;
+
+  overview?: string;
+  images?: string[];
 };
 
-export const projects: Project[] = [
-  {
-    title: "Drömfångaren",
-    year: "2026",
-    category: "Interactive Object / Design",
-    description:
-      "En fysisk maskin som fångar, materialiserar och bevarar drömmar genom ljud, AI och taktil interaktion.",
-    image: "images/dreamcatcher/cover.jpg",
-  },
-];
+
+export const projects: Project[] = projectsData;

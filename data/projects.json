@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "dromfangaren",
+    "title": "The Dreamcatcher",
+    "year": "2026",
+    "category": "Interactive Object / for 3 days of design",
+    "materials": "Acrylic enclosed raspberry pi based machine, Acrylic enclosed wooden box, steel pipe base and 3d printed mounting fixtures.",
+    "description": "The Dreamcatcher is a device created to encourage users to gather, categorize, and reflect on their dreams through documentation, integrated into a piece of furniture that motivates continuous collection of dreams throughout different stages of life.",
+    "thumbnail": "/images/dreamcatcher/thumbnail.jpg",
+    "cover": "/images/dreamcatcher/cover.jpg",
+    "overview": "The Dreamcatcher was created for 3 Days of Design 2026, based on the exhibition theme “Collecting.” The project explores how we process our dreams and how they can be given a physical presence in everyday life. By giving dreams a material expression, they become a tool for memory, reflection, and new interpretations.\n\nThe object is an interactive piece of furniture where the user records their dreams through a microphone. A Raspberry Pi runs custom-developed software that records the audio, transcribes it using a local AI model, and prints the dream onto a receipt that is collected inside the box. Over time, a personal archive of memories is created — one that can be opened and revisited, creating opportunities to discover patterns, recall periods of life, and reflect on one’s well-being.\n\nThe project has been entirely developed, engineered, and manufactured by me. I have been responsible for the concept, design, programming, and electronics, as well as the complete construction, fabrication, and assembly. The machine is built around a laser-cut acrylic structure with custom-designed and 3D-printed components, hand-shaped spiral cables, and a specially made microphone. The furniture is crafted from ash wood and mounted on a steel structure with turned metal details.",
+    "images": [
+      "/images/dreamcatcher/detail-1.jpg",
+      "/images/dreamcatcher/detail-2.jpg",
+      "/images/dreamcatcher/detail-3.jpg"
+    ]
+  },
+  {
+    "slug": "horizon",
+    "title": "Horizon",
+    "year": "2026",
+    "category": "Stool+Lamp / School-project",
+    "materials": "Steel piping and sheetmetal. Reworked and reimagined components. Stool is coated in silver hammer-paint with blue accents, lamp is sand blasted with blue accent ",
+    "description": "Made during assignment regarding going in dialouge with another practice, while still reflecting on your own.",
+    "thumbnail": "/images/horizon/horizon1.jpg",
+    "cover": "/images/horizon/horizon2.jpg",
+    "overview": "Assignment: The course component, Practice Dialogue, focuses on exploring and developing the artistic approach of one’s own practice by placing it in dialogue with another practice, within the framework of a practical project.\n\nMy chosen practice to go in dialouge with was Dean Edmonds (@bermudatrips)",
+    "images": [
+      "/images/horizon/horizon3.jpg",
+      "/images/horizon/horizon4.jpg",
+      "/images/horizon/horizon5.jpg"
+    ]
+  }
+]
