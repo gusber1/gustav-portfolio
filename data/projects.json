@@ -2,7 +2,7 @@
   {
     "slug": "dromfangaren",
     "title": "The Dreamcatcher",
-    "year": "2026",
+    "year": "June 2026",
     "category": "Interactive Object / for 3 days of design",
     "materials": "Acrylic enclosed raspberry pi based machine, Acrylic enclosed wooden box, steel pipe base and 3d printed mounting fixtures.",
     "description": "The Dreamcatcher is a device created to encourage users to gather, categorize, and reflect on their dreams through documentation, integrated into a piece of furniture that motivates continuous collection of dreams throughout different stages of life.",
@@ -18,7 +18,7 @@
   {
     "slug": "horizon",
     "title": "Horizon",
-    "year": "2026",
+    "year": "May 2026",
     "category": "Stool+Lamp / School-project",
     "materials": "Steel piping and sheetmetal. Reworked and reimagined components. Stool is coated in silver hammer-paint with blue accents, lamp is sand blasted with blue accent ",
     "description": "Made during assignment regarding going in dialouge with another practice, while still reflecting on your own.",
@@ -29,6 +29,41 @@
       "/images/horizon/horizon3.jpg",
       "/images/horizon/horizon4.jpg",
       "/images/horizon/horizon5.jpg"
+    ]
+  },
+  {
+    "slug": "materialstudy",
+    "title": "Material Study",
+    "year": "September 2026",
+    "category": "Prototypes / for exhibiton",
+    "materials": "Pine, clear coated metal, 3d-print, Wool-fabric, painted metal, turned birch and hardware. ",
+    "description": "Prototype stools for ”Stool Sample” exhibition @galleri_hdkvaland",
+    "thumbnail": "/images/materialstudy/thumbnail.jpg",
+    "cover": "/images/materialstudy/cover.jpg",
+    "overview": "A study of materials, components and iteration through stools.",
+    "images": [
+      "/images/materialstudy/detail-1.jpg",
+      "/images/materialstudy/detail-2.jpg",
+      "/images/materialstudy/detail-3.jpg",
+      "/images/materialstudy/detail-4.jpg",
+      "/images/materialstudy/detail-5.jpg"
+    ]
+  },
+  {
+    "slug": "korsvagen",
+    "title": "Korsvägen",
+    "year": "October 2026",
+    "category": "Furniture concept & Prototype / School-project in collaboration with external client",
+    "materials": "Pine, 3D-printed PETg-rcf08, steel piping and hardware",
+    "description": "Furniture concept based on brief from external client, for public use in a café setting.",
+    "thumbnail": "/images/korsvagen/thumbnail.jpg",
+    "cover": "/images/korsvagen/cover.jpg",
+    "overview": "I have developed a furniture concept inspired by themes of exploration, technology and interaction, combining generative design with my own visual language and a technical approach. \n\nThe furniture consists of 3D-printed connectors that express the generative design aspect, integrated with steel tubes and wooden seating elements. \n\nThe concept is designed as a flexible furniture system that can be introduced into a café environment and easily expanded or adapted to other spaces. Through its modular construction and distinctive expression, the furniture aims to create an inviting atmosphere while reflecting the curiosity, creativity and sense of exploration that characterise the surrounding environment.",
+    "images": [
+      "/images/korsvagen/cover.jpg",
+      "/images/korsvagen/thumbnail.jpg",
+      "/images/korsvagen/1.jpg",
+      "/images/korsvagen/2.jpg"
     ]
   }
 ]

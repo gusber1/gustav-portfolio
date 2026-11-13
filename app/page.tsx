@@ -43,7 +43,7 @@ export default function Home() {
       <footer className="mt-32 pt-8 border-t border-neutral-200 flex justify-between text-sm text-neutral-500">
 
   <a
-    href="https://www.instagram.com/ratstyletm/"
+    href="https://www.instagram.com/gustavbergholt.se/"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-neutral-900 transition-colors"
